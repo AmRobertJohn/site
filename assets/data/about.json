@@ -1,0 +1,106 @@
+{
+  "hero": {
+    "kicker": "About AD Broadcast & I.T Solutions",
+    "title": "We engineer custom broadcast & IT infrastructure across East Africa.",
+    "subtitle": "From first signal to final viewer, we design, build and support end-to-end solutions for TV, Radio, streaming and networks — tuned for the realities of our region.",
+    "badges": [
+      "Broadcast • Streaming • Networks",
+      "Uganda • East Africa • Africa"
+    ]
+  },
+  "company": {
+    "lede": "AD Broadcast & I.T Solutions (U) Ltd is a specialist systems integrator focused on TV & Radio broadcasting, streaming platforms, ISP backbones and enterprise IT infrastructure.",
+    "body": [
+      "Our team has been behind the setup, upgrade or support of many of the television and radio stations you see on air in Uganda and the region. We understand how to take a project from a blank room to a fully functional studio, play-out and transmission chain that is stable, redundant and easy to maintain.",
+      "Beyond on-air systems, we design and deploy IP networks, storage and content delivery architectures that connect studios, OB units, data centres and last-mile WiFi. Every solution is tailored — we do not drop in generic kits. We analyse the workflow, existing infrastructure, budget and long-term growth, then design something that fits.",
+      "We work closely with broadcasters, churches, government entities, NGOs and private enterprises to bridge the gap between traditional broadcast and modern IP-based delivery, including SRT, HLS, IPTV/OTT and hybrid satellite + terrestrial models."
+    ]
+  },
+  "stats": [
+    {
+      "label": "Years in regional projects*",
+      "value": "10+",
+      "note": "*combined team experience"
+    },
+    {
+      "label": "Broadcast & IT projects delivered",
+      "value": "50+",
+      "note": "studios, links & networks"
+    },
+    {
+      "label": "Countries supported",
+      "value": "4+",
+      "note": "Uganda, Kenya & neighbours"
+    }
+  ],
+  "pillars": [
+    {
+      "title": "Tailored engineering",
+      "description": "Every project is treated as unique — from a single church stream to multi-site TV networks. We design around your workflow, budgets and growth plans."
+    },
+    {
+      "title": "Broadcast-grade reliability",
+      "description": "We design for uptime: redundancy, monitoring, clear documentation and realistic SLAs so your team is not left guessing when something goes wrong."
+    },
+    {
+      "title": "End-to-end thinking",
+      "description": "Studios, links, contribution, distribution, CDN and last-mile WiFi — we understand the whole chain and make sure each part works together."
+    }
+  ],
+  "expertise_blocks": [
+    {
+      "title": "Broadcast & media",
+      "items": [
+        "TV & Radio studio builds and upgrades",
+        "Play-out, ingest and MCR workflows",
+        "SRT, HLS, IPTV/OTT and hybrid delivery",
+        "Signal routing, monitoring and redundancy"
+      ]
+    },
+    {
+      "title": "IT & networks",
+      "items": [
+        "Core routing & switching for broadcasters and ISPs",
+        "PtP / PtMP wireless links and Starlink integration",
+        "Storage, backup and media asset workflows",
+        "Secure remote contribution and VPN access"
+      ]
+    },
+    {
+      "title": "Streaming platforms",
+      "items": [
+        "Custom TV & Radio streaming engine deployments",
+        "Multi-channel encoding, transcoding and packaging",
+        "Branded web & app experiences for viewers",
+        "Analytics, capacity planning and optimisation"
+      ]
+    }
+  ],
+  "experience": [
+    {
+      "period": "Broadcast roll-outs",
+      "detail": "Involved in the setup, consultancy or upgrade of multiple TV and Radio stations — from first camera and mixer choice to final transmission and streams."
+    },
+    {
+      "period": "Hybrid broadcast + IP projects",
+      "detail": "Design of solutions that merge DVB, satellite, SRT, HLS and WiFi so content reaches viewers reliably on both traditional and digital platforms."
+    },
+    {
+      "period": "Regional multi-site networks",
+      "detail": "Support for projects that span multiple cities and countries, with centralised monitoring, NOC-style dashboards and documented failover paths."
+    }
+  ],
+  "clients_highlight": {
+    "title": "Who we work with",
+    "description": "We partner with broadcasters, ISPs, churches, media ministries, government agencies, NGOs and private enterprises that need reliable content and data delivery.",
+    "segments": [
+      "TV & Radio broadcasters",
+      "IPTV/OTT and streaming platforms",
+      "Churches & faith-based media",
+      "Government & regulatory projects",
+      "NGOs with communication programmes",
+      "Enterprise & campus networks"
+    ],
+    "note": "A detailed public client list will be available on our dedicated Clients page."
+  }
+}

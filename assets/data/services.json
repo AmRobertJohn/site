@@ -1,0 +1,163 @@
+{
+  "hero": {
+    "kicker": "Services & Solutions",
+    "title": "We engineer custom broadcast & IT solutions, not generic kits.",
+    "subtitle": "From first TV camera to regional streaming platforms, we design and deliver tailored systems that fit your workflow, budgets and future growth.",
+    "badges": [
+      "Broadcast • Streaming • Networks",
+      "Custom engineering for East Africa"
+    ]
+  },
+  "core_services": [
+    {
+      "id": "broadcast",
+      "title": "Broadcast systems & studios",
+      "subtitle": "End-to-end TV & Radio deployments.",
+      "points": [
+        "Turnkey TV & Radio studio design, build and upgrades",
+        "Play-out, ingest and MCR workflows tuned for your operations",
+        "Routing, monitoring and redundant on-air chains",
+        "OB / field kits and contribution links (SRT, satellite, microwave)"
+      ]
+    },
+    {
+      "id": "streaming",
+      "title": "Streaming & OTT platforms",
+      "subtitle": "TV & Radio streaming across devices.",
+      "points": [
+        "Deployment of our TV & Radio streaming engine",
+        "HLS, SRT and IP contribution workflows",
+        "Apps and web players for your channels on our platform",
+        "Capacity planning and monitoring for live events and 24/7 channels"
+      ]
+    },
+    {
+      "id": "networking",
+      "title": "IT & network infrastructure",
+      "subtitle": "Backbone for broadcast and enterprise.",
+      "points": [
+        "Core routing, switching and WiFi for studios, campuses and ISPs",
+        "PtP / PtMP links, Starlink integration and failover design",
+        "Storage, backup and media asset workflows",
+        "Secure remote access, VPNs and monitoring dashboards"
+      ]
+    },
+    {
+      "id": "custom",
+      "title": "Custom & tailored solutions",
+      "subtitle": "Unique workflows, designed from scratch for Private, NGOs & Governments",
+      "points": [
+        "Analysis of existing infrastructure and future requirements",
+        "Solution architecture from capture to delivery",
+        "Command-centre and NOC-style monitoring rooms",
+		"Communication and connectivity for organisations.",
+        "Implementation, testing and handover with clear documentation"
+      ]
+    }
+  ],
+  "streaming_engine": {
+    "title": "TV & Radio Streaming Engine packages",
+    "subtitle": "Host your channel on a platform built for broadcasters.",
+    "note": "Below are example packages. We tailor each deployment based on your channel count, expected viewers and contribution paths.",
+    "packages": [
+      {
+        "id": "tv-only",
+        "name": "TV Streaming",
+        "tagline": "Single TV channel on our streaming engine.",
+        "monthly_from": "From UGX 400,000  / month ",
+        "best_for": "Standalone TV stations and ministries starting with online streaming.",
+        "features": [
+          "1 x 24/7 TV channel on our streaming engine",
+          "SRT / IP contribution from your encoder",
+          "HLS output ready for web, mobile and Smart TV apps",
+          "Basic player page or embed for your existing website",
+          "Standard monitoring and support during working hours"
+        ]
+      },
+      {
+        "id": "tv-radio",
+        "name": "TV + Radio Streaming",
+        "tagline": "Combined TV & Radio streaming presence.",
+        "monthly_from": "From UGX 550,000  / month ",
+        "best_for": "Media groups running both TV and Radio that want a unified platform.",
+        "features": [
+          "1 x TV channel + 1 x Radio channel on our engine",
+          "Unified dashboard for both channels",
+          "Embeddable players and integration with our apps",
+          "Basic analytics for live and catch-up viewers",
+          "Technical onboarding and configuration support"
+        ]
+      },
+      {
+        "id": "streaming-web",
+        "name": "Streaming + Webpage",
+        "tagline": "Streaming plus a branded web presence.",
+        "monthly_from": "From 450,000  / month ",
+        "best_for": "Channels that need both streaming and a professional landing website.",
+        "features": [
+          "TV or TV+Radio streaming on our engine",
+          "Branded single-page or small website for your channel",
+          "Integrated live player, programme info and contact form",
+          "Basic SEO and analytics integration",
+          "Ongoing hosting and platform updates"
+        ]
+      }
+    ]
+  },
+  "web_offerings": {
+    "title": "Website design, development & hosting",
+    "subtitle": "Web presence for broadcasters, organisations and projects.",
+    "packages": [
+      {
+        "id": "web-basic",
+        "name": "Basic site",
+        "summary": "Clean one–three page website for channels, events or campaigns.",
+        "ideal_for": "Start-ups, ministries, community channels and small businesses.",
+        "highlights": [
+          "Modern responsive design aligned with your brand",
+          "Up to 3 pages (Home, About, Contact or similar)",
+          "Contact form and basic map/location",
+          "Optimised for mobile viewing"
+        ]
+      },
+      {
+        "id": "web-business",
+        "name": "Business site",
+        "summary": "Full company website with multiple sections and content.",
+        "ideal_for": "TV & Radio groups, integrators, SMEs, NGOs and agencies.",
+        "highlights": [
+          "Structured navigation with services, projects and news sections",
+          "Blog or updates module for announcements",
+          "Integration with your live stream or external platforms",
+          "Basic on-page SEO and performance tuning"
+        ]
+      },
+      {
+        "id": "web-hosting",
+        "name": "Hosting & care",
+        "summary": "Secure hosting and ongoing technical care.",
+        "ideal_for": "Clients who want us to manage updates, backups and uptime.",
+        "highlights": [
+          "Managed hosting on our infrastructure or your servers",
+          "Backups and monitoring configuration",
+          "SSL, basic security hardening and updates",
+          "Support channel for content or technical changes"
+        ]
+      }
+    ]
+  },
+  "industries": {
+    "title": "Industries we support",
+    "subtitle": "We adapt the same engineering discipline to different types of organisations.",
+    "items": [
+      "TV & Radio broadcasters",
+      "Streaming platforms and content owners",
+      "Churches and faith-based media",
+      "ISPs and last-mile network operators",
+      "Government media and communication units",
+      "NGOs with outreach and education programmes",
+      "Enterprises and campus networks",
+      "Production houses and creative agencies"
+    ]
+  }
+}

@@ -1,0 +1,40 @@
+{
+    "products": [
+        {
+            "id": 2,
+            "sku": "",
+            "title": "Sennheiser Omni-Directional Clip-On Microphone",
+            "brand": "Sennheiser",
+            "category": "Audio",
+            "short_desc": "Capture crystal-clear audio with this Sennheiser omni-directional lavalier microphone.\r\nAchieve professional sound quality for interviews, presentations, and video recordings.\r\nEnjoy easy setup with the 3.5mm jack connector; compatible with most devices.\r\nBenefit from a wide frequency response (20-20000Hz) for natural, full-bodied sound.\r\nMinimize unwanted noise with the included foam windscreen for pristine recordings.\r\nRely on Sennheiser's reputation for durable, high-quality microphones and audio gear.",
+            "details": "The newly developed Lavalier by Sennheiser is derived from the Broadway standard, with improvements that provide a warm and distortion-free signal, even at high sound pressure levels. Reduced to the essentials, the aspirations of big productions become feasible, even for smaller productions and smaller budgets. The microphone has multiple safeguards against the tough demands of theatrical productions. A sophisticated patented umbrella diaphragm protects the more sensitive components against sweat. The massive potential of the lavalier remains unobtrusive thanks to its lightweight and easy-to-conceal design. If you don't attach the microphone near your mouth with tape, you have a wide variety of accessories to utilize, including rotatable clips.",
+            "has_price": true,
+            "price": 180000,
+            "currency": "UGX",
+            "featured": true,
+            "tags": [],
+            "images": [
+                "assets/img/products/product_2_1764186421_4664.jpg"
+            ]
+        },
+        {
+            "id": 1,
+            "sku": "",
+            "title": "TVU One",
+            "brand": "TVU Networks",
+            "category": "Broadcast",
+            "short_desc": "The pinnacle in 5G live video transmission for both single and multi-camera setups. Astonishing 0.3s latency for remote news and sports productions. Portable and ready to integrate seamlessly into any media workflows. The new industry standard.",
+            "details": "The One delivers studio-quality live video transmissions on the run. Extremely portable, it seamlessly synchronizes up to four 1080P/4K HDR sources with perfect frame-accuracy and impeccable stability.",
+            "has_price": false,
+            "price": null,
+            "currency": "USD",
+            "featured": false,
+            "tags": [],
+            "images": [
+                "assets/img/products/product_1_1764006855_3300.png",
+                "assets/img/products/product_1_1764006983_9320.jpg",
+                "assets/img/products/product_1_1764006983_3013.png"
+            ]
+        }
+    ]
+}

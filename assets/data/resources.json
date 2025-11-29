@@ -1,0 +1,43 @@
+{
+    "hero": {
+        "kicker": "Resources",
+        "title": "Insights from broadcast, streaming and IT projects we work on.",
+        "subtitle": "Short, practical notes from the systems we design, deploy and maintain across broadcast, streaming and network environments."
+    },
+    "categories": [
+        "All",
+        "Broadcast",
+        "Streaming",
+        "Networking",
+        "Enterprise & Government",
+        "Media & Content"
+    ],
+    "items": [
+        {
+            "id": "res-2",
+            "title": "Designing a resilient TV & Radio signal chain",
+            "summary": "Key considerations when moving from a single on-air chain to a more resilient architecture with redundancy, monitoring and clear fallbacks.",
+            "category": "Broadcast",
+            "tags": [
+                "TV",
+                "Radio",
+                "Content"
+            ],
+            "link": "https:\/\/www.tvunetworks.com\/wp-content\/uploads\/2023\/09\/TVU_One_V4_Data_Sheet-2025.pdf",
+            "highlight": true
+        },
+        {
+            "id": "res-1",
+            "title": "From SRT contribution to HLS delivery",
+            "summary": "How we typically move from encoders sending SRT to an HLS output ready for web, apps and Smart TVs, including latency and reliability trade-offs.",
+            "category": "Streaming",
+            "tags": [
+                "SRT",
+                "HLS",
+                "LLS"
+            ],
+            "link": "https:\/\/www.researchgate.net\/publication\/221558720_Low-Latency_Live_Video_Streaming_over_Low-Capacity_Networks",
+            "highlight": false
+        }
+    ]
+}
