@@ -1,0 +1,277 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Contact Us | AD Broadcast &amp; I.T Solutions</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Get in touch with AD Broadcast & I.T Solutions for TV, Radio, streaming and IT infrastructure projects across East Africa."
+    />
+
+    <!-- Canonical & robots -->
+    <link rel="canonical" href="https://ad-ug.com/contact" />
+    <meta name="robots" content="index,follow" />
+
+    <!-- Open Graph -->
+    <meta
+      property="og:title"
+      content="Contact Us | AD Broadcast &amp; I.T Solutions"
+    />
+    <meta
+      property="og:description"
+      content="Talk to AD Broadcast & I.T Solutions about TV, Radio, streaming or IT infrastructure projects across East Africa."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://ad-ug.com/contact" />
+    <meta property="og:site_name" content="AD Broadcast &amp; I.T Solutions" />
+    <meta
+      property="og:image"
+      content="https://ad-ug.com/assets/img/ui/hero.jpg"
+    />
+    <meta
+      property="og:image:alt"
+      content="Contact AD Broadcast & I.T Solutions about broadcast, streaming and IT services"
+    />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta
+      name="twitter:title"
+      content="Contact Us | AD Broadcast &amp; I.T Solutions"
+    />
+    <meta
+      name="twitter:description"
+      content="Share your TV, Radio, streaming or IT requirements with AD Broadcast & I.T Solutions."
+    />
+    <meta
+      name="twitter:image"
+      content="https://ad-ug.com/assets/img/ui/hero.jpg"
+    />
+
+    <!-- Main site styles -->
+    <link rel="stylesheet" href="../assets/css/main.css" />
+
+    <!-- Favicon -->
+    <link rel="icon" href="../assets/img/favicon.ico" />
+
+    <!-- JSON-LD: WebPage referencing main Organization on the homepage -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "@id": "https://ad-ug.com/contact#webpage",
+        "url": "https://ad-ug.com/contact",
+        "name": "Contact Us | AD Broadcast & I.T Solutions",
+        "description": "Contact page for AD Broadcast & I.T Solutions to discuss TV, Radio, streaming and IT infrastructure projects across East Africa.",
+        "isPartOf": {
+          "@id": "https://ad-ug.com/#organization"
+        }
+      }
+    </script>
+
+    <!-- Core layout JS (header/footer, nav, settings wiring) -->
+    <script defer src="../assets/js/app.js"></script>
+    <!-- Page-specific JS -->
+    <script defer src="../assets/js/contact.js"></script>
+  </head>
+  <body class="page page--contact">
+    <div id="app-root" class="app-shell">
+      <!-- Header placeholder (app.js will inject header.html) -->
+      <!-- IMPORTANT: .site-header class so app.js scroll logic finds it -->
+      <div id="siteHeader"></div>
+
+      <main id="site-main">
+        <!-- Hero -->
+        <section class="section hero hero--sub">
+          <div class="container hero__inner">
+            <div class="hero__meta">
+              <span class="chip">Let’s talk</span>
+              <h1>Contact Us Today</h1>
+              <p class="lead">
+                Tell us about your TV, Radio, streaming or IT infrastructure
+                needs. Our engineering team will follow up with practical
+                options, not generic quotations.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <!-- Contact + form -->
+        <section class="section section--padded">
+          <div class="container contact-layout">
+            <!-- Reach us -->
+            <div class="contact-panel contact-panel--info">
+              <h2 class="section-title">Reach us</h2>
+              <p class="section-intro">
+                You can reach us directly using the details below, or send a
+                message through the form and we’ll get back to you.
+              </p>
+
+              <ul class="contact-list">
+                <li>
+                  <div class="contact-label">Phone</div>
+                  <a id="contactPhone" href="#" class="contact-value">
+                    <!-- Filled by contact.js from settings.json -->
+                    +256 ---
+                  </a>
+                </li>
+                <li>
+                  <div class="contact-label">WhatsApp</div>
+                  <a id="contactWhatsApp" href="#" class="contact-value">
+                    <!-- Filled by contact.js from settings.json -->
+                    +256 ---
+                  </a>
+                </li>
+                <li>
+                  <div class="contact-label">Email</div>
+                  <a id="contactEmail" href="#" class="contact-value">
+                    <!-- Filled by contact.js from settings.json -->
+                    support@ad-ug.com
+                  </a>
+                </li>
+                <li>
+                  <div class="contact-label">Office</div>
+                  <div id="contactAddress" class="contact-value">
+                    <!-- Filled by contact.js from settings.json -->
+                    Kampala, Uganda
+                  </div>
+                </li>
+              </ul>
+
+              <div class="contact-note">
+                <p>
+                  For urgent broadcast or streaming support, please call or
+                  WhatsApp directly. For structured projects and proposals, the
+                  form is best.
+                </p>
+              </div>
+            </div>
+
+            <!-- Form -->
+            <div class="contact-panel contact-panel--form">
+              <h2 class="section-title">Send us a message</h2>
+              <p class="section-intro">
+                Share a bit about your project or requirement. We’ll review and
+                respond with clarifying questions or next steps.
+              </p>
+
+              <form id="contact-form" class="contact-form">
+                <div class="form-grid">
+                  <div class="form-field">
+                    <label for="name">Name *</label>
+                    <input
+                      type="text"
+                      id="name"
+                      name="name"
+                      required
+                      autocomplete="name"
+                    />
+                  </div>
+
+                  <div class="form-field">
+                    <label for="email">Email *</label>
+                    <input
+                      type="email"
+                      id="email"
+                      name="email"
+                      required
+                      autocomplete="email"
+                    />
+                  </div>
+
+                  <div class="form-field">
+                    <label for="phone">Phone</label>
+                    <input
+                      type="text"
+                      id="phone"
+                      name="phone"
+                      autocomplete="tel"
+                    />
+                  </div>
+
+                  <div class="form-field">
+                    <label for="company">Company / Organisation</label>
+                    <input
+                      type="text"
+                      id="company"
+                      name="company"
+                      autocomplete="organization"
+                    />
+                  </div>
+
+                  <div class="form-field">
+                    <label for="country">Country</label>
+                    <input
+                      type="text"
+                      id="country"
+                      name="country"
+                      autocomplete="country-name"
+                    />
+                  </div>
+
+                  <div class="form-field">
+                    <label for="contact_method">Preferred contact method</label>
+                    <select id="contact_method" name="contact_method">
+                      <option value="">No preference</option>
+                      <option value="phone">Phone call</option>
+                      <option value="whatsapp">WhatsApp</option>
+                      <option value="email">Email</option>
+                    </select>
+                  </div>
+
+                  <div class="form-field form-field--full">
+                    <label for="message">Project or request details *</label>
+                    <textarea
+                      id="message"
+                      name="message"
+                      rows="5"
+                      required
+                      placeholder="Tell us about the TV/Radio/streaming or IT work you need support with..."
+                    ></textarea>
+                  </div>
+                </div>
+
+                <div class="form-footer">
+                  <button type="submit" class="btn btn--primary">
+                    Send message
+                  </button>
+                  <div
+                    id="contact-status"
+                    class="form-status"
+                    aria-live="polite"
+                  ></div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </section>
+
+        <!-- Map row -->
+        <section class="section">
+          <div class="container full-row-map">
+            <div class="contact-panel contact-panel--map equal-height">
+              <h2 class="section-title">Find us on the map</h2>
+              <p class="section-intro">
+                You can visit us at our offices in Kampala. Use the map below
+                for exact directions.
+              </p>
+
+              <div class="map-embed">
+                <iframe
+                  id="contactMapFrame"
+                  loading="lazy"
+                  allowfullscreen
+                  referrerpolicy="no-referrer-when-downgrade"
+                ></iframe>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <!-- Footer placeholder (app.js will inject footer.html) -->
+      <div id="siteFooter"></div>
+    </div>
+  </body>
+</html>
