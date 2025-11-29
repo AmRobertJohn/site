@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en">
+	  <head>
+		<meta charset="utf-8" />
+		<title>Resources | AD Broadcast &amp; I.T Solutions</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta
+		  name="description"
+		  content="Short, practical resources from AD Broadcast & I.T Solutions on broadcast, streaming and IT infrastructure projects across East Africa."
+		/>
+
+		<!-- Canonical & robots -->
+		<link rel="canonical" href="https://ad-ug.com/resources" />
+		<meta name="robots" content="index,follow" />
+
+		<!-- Open Graph -->
+		<meta
+		  property="og:title"
+		  content="Resources | AD Broadcast &amp; I.T Solutions"
+		/>
+		<meta
+		  property="og:description"
+		  content="Insights, notes and practical resources from AD Broadcast & I.T Solutions on TV, Radio, streaming and IT systems."
+		/>
+		<meta property="og:type" content="website" />
+		<meta property="og:url" content="https://ad-ug.com/resources" />
+		<meta property="og:site_name" content="AD Broadcast &amp; I.T Solutions" />
+		<meta
+		  property="og:image"
+		  content="https://ad-ug.com/assets/img/ui/hero.jpg"
+		/>
+		<meta
+		  property="og:image:alt"
+		  content="Resources and insights from AD Broadcast & I.T Solutions"
+		/>
+
+		<!-- Twitter Card -->
+		<meta name="twitter:card" content="summary_large_image" />
+		<meta
+		  name="twitter:title"
+		  content="Resources | AD Broadcast &amp; I.T Solutions"
+		/>
+		<meta
+		  name="twitter:description"
+		  content="Browse resources from AD Broadcast & I.T Solutions covering broadcast, streaming and IT infrastructure."
+		/>
+		<meta
+		  name="twitter:image"
+		  content="https://ad-ug.com/assets/img/ui/hero.jpg"
+		/>
+
+		<link rel="stylesheet" href="../assets/css/main.css" />
+		<link rel="icon" href="../assets/img/favicon.ico" />
+
+		<!-- JSON-LD: WebPage referencing main Organization on the homepage -->
+		<script type="application/ld+json">
+		  {
+			"@context": "https://schema.org",
+			"@type": "WebPage",
+			"@id": "https://ad-ug.com/resources#webpage",
+			"url": "https://ad-ug.com/resources",
+			"name": "Resources | AD Broadcast & I.T Solutions",
+			"description": "Resources and insights from AD Broadcast & I.T Solutions on TV, Radio, streaming and IT projects.",
+			"isPartOf": {
+			  "@id": "https://ad-ug.com/#organization"
+			}
+		  }
+		</script>
+	  </head>
+  <body data-page="resources">
+    <!-- Shared header -->
+    <div id="siteHeader"></div>
+
+    <main>
+      <!-- HERO -->
+      <section class="hero">
+        <div class="container hero__inner">
+          <div class="hero__meta">
+            <span class="chip" id="res-hero-kicker">Resources</span>
+            <h1 id="res-hero-title">
+              Insights from broadcast, streaming &amp; IT infrastructure work.
+            </h1>
+            <p class="lead" id="res-hero-subtitle">
+              Short field notes and summaries from the systems we design, deploy
+              and maintain in East Africa and beyond.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- FILTER BAR -->
+      <section class="section section--muted">
+        <div class="container">
+          <div class="filter-bar filter-bar--resources">
+            <div class="filter-bar__group">
+              <label for="resCategory">Category</label>
+              <select id="resCategory">
+                <!-- options injected from JSON -->
+              </select>
+            </div>
+            <div class="filter-bar__group filter-bar__group--grow">
+              <label for="resSearch">Search</label>
+              <input
+                type="search"
+                id="resSearch"
+                placeholder="Search resources by title or tags…"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- RESOURCES GRID -->
+      <section class="section">
+        <div class="container">
+          <div id="res-empty" class="resources-empty" style="display:none;">
+            <p>No resources match your filters yet. Try clearing search or choosing “All”.</p>
+          </div>
+
+          <div class="resources-grid" id="resGrid">
+            <!-- cards injected by resources.js -->
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Shared footer -->
+    <div id="siteFooter"></div>
+
+    <script src="../assets/js/app.js"></script>
+    <script src="../assets/js/resources.js"></script>
+  </body>
+</html>
