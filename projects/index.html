@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Projects | AD Broadcast &amp; I.T Solutions</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Broadcast, streaming, networking and IT infrastructure projects delivered by AD Broadcast & I.T Solutions across East and Central Africa."
+    />
+
+    <!-- Canonical & robots -->
+    <link rel="canonical" href="https://ad-ug.com/projects" />
+    <meta name="robots" content="index,follow" />
+
+    <!-- Open Graph -->
+    <meta
+      property="og:title"
+      content="Projects | AD Broadcast &amp; I.T Solutions"
+    />
+    <meta
+      property="og:description"
+      content="A snapshot of TV, Radio, streaming and IT infrastructure projects engineered by AD Broadcast & I.T Solutions."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://ad-ug.com/projects" />
+    <meta property="og:site_name" content="AD Broadcast &amp; I.T Solutions" />
+    <meta
+      property="og:image"
+      content="https://ad-ug.com/assets/img/ui/hero-projects.jpg"
+    />
+    <meta
+      property="og:image:alt"
+      content="Broadcast and IT infrastructure projects delivered by AD Broadcast & I.T Solutions"
+    />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta
+      name="twitter:title"
+      content="Projects | AD Broadcast &amp; I.T Solutions"
+    />
+    <meta
+      name="twitter:description"
+      content="Browse TV, Radio, streaming and IT infrastructure projects from AD Broadcast & I.T Solutions."
+    />
+    <meta
+      name="twitter:image"
+      content="https://ad-ug.com/assets/img/ui/hero-projects.jpg"
+    />
+
+    <link rel="stylesheet" href="../assets/css/main.css" />
+    <link rel="icon" href="../assets/img/favicon.ico" />
+
+    <!-- JSON-LD: WebPage referencing main Organization on the homepage -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "@id": "https://ad-ug.com/projects#webpage",
+        "url": "https://ad-ug.com/projects",
+        "name": "Projects | AD Broadcast & I.T Solutions",
+        "description": "Project portfolio of AD Broadcast & I.T Solutions, covering broadcast, streaming and IT deployments across East Africa.",
+        "isPartOf": {
+          "@id": "https://ad-ug.com/#organization"
+        }
+      }
+    </script>
+  </head>
+  <body data-page="projects">
+    <div id="siteHeader"></div>
+
+    <main>
+      <section class="hero">
+        <div class="container hero__inner">
+          <div class="hero__meta">
+            <span class="chip">Projects</span>
+            <h1>Broadcast &amp; IT projects we’ve engineered.</h1>
+            <p class="lead">
+              A snapshot of the TV, Radio, streaming and IT infrastructure
+              we’ve delivered for broadcasters and organisations.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container">
+          <div class="section__header">
+            <h2 class="section__title">Filter projects</h2>
+            <p class="section__subtitle">
+              Filter by industry, year or use the search box to quickly find
+              deployments similar to what you need.
+            </p>
+          </div>
+
+          <div class="projects-toolbar">
+            <div class="projects-toolbar__group">
+              <label class="field-label" for="projSearchInput">Search</label>
+              <input
+                id="projSearchInput"
+                class="field-input"
+                type="text"
+                placeholder="Search by title, tags, industry..."
+              />
+            </div>
+            <div class="projects-toolbar__group">
+              <label class="field-label" for="projFilterIndustry">Industry</label>
+              <select id="projFilterIndustry" class="field-select">
+                <!-- options injected by projects.js -->
+              </select>
+            </div>
+            <div class="projects-toolbar__group">
+              <label class="field-label" for="projFilterYear">Year</label>
+              <select id="projFilterYear" class="field-select">
+                <!-- options injected by projects.js -->
+              </select>
+            </div>
+          </div>
+
+          <div id="projectsEmpty" class="projects-empty" style="display:none;">
+            No projects match your filters yet. Try clearing search or filters.
+          </div>
+
+          <div class="grid-3" id="projectsGrid">
+            <!-- cards injected by projects.js -->
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <div id="siteFooter"></div>
+
+    <script src="../assets/js/app.js"></script>
+    <script src="../assets/js/projects.js"></script>
+  </body>
+</html>
