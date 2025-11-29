@@ -1,0 +1,27 @@
+# ----------------------------------------------------
+# Basic setup
+# ----------------------------------------------------
+Options -Indexes
+
+DirectoryIndex index.html index.php
+
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+
+  # Force https + non-www
+  RewriteCond %{HTTPS} !=on [OR]
+  RewriteCond %{HTTP_HOST} ^www\.ad-ug\.com$ [NC]
+  RewriteRule ^(.*)$ https://ad-ug.com/$1 [L,R=301]
+
+  # Clean URLs: /page -> /page.html
+  # - Only for requests that are NOT real files or dirs
+  # - Only for URLs without a dot (so assets/css/main.css are untouched)
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteCond %{REQUEST_FILENAME} !-d
+  RewriteRule ^([^\.]+)$ $1.html [L]
+</IfModule>
+
+# ----------------------------------------------------
+# Custom error pages
+# ----------------------------------------------------
+ErrorDocument 404 /404.html

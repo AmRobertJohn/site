@@ -1,0 +1,9 @@
+User-agent: *
+# Block admin area
+Disallow: /admin/
+
+# Allow everything else
+Allow: /
+
+# Point crawlers to your XML sitemap
+Sitemap: https://ad-ug.com/sitemap.xml
