@@ -1,0 +1,295 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Shop | AD Broadcast &amp; I.T Solutions</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Broadcast, networking and IT equipment supplied, integrated and supported by AD Broadcast & I.T Solutions across East Africa. TVU Reseller"
+    />
+
+    <!-- Canonical & robots -->
+    <link rel="canonical" href="https://ad-ug.com/shop" />
+    <meta name="robots" content="index,follow" />
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Shop | AD Broadcast &amp; I.T Solutions" />
+    <meta
+      property="og:description"
+      content="Browse broadcast, networking and IT equipment that AD Broadcast & I.T Solutions supplies, configures and supports across East Africa."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://ad-ug.com/shop/" />
+    <meta property="og:site_name" content="AD Broadcast &amp; I.T Solutions" />
+    <meta
+      property="og:image"
+      content="https://ad-ug.com/assets/img/ui/hero-shop.jpg"
+    />
+    <meta
+      property="og:image:alt"
+      content="Professional broadcast and IT equipment in the AD Broadcast & I.T Solutions shop"
+    />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Shop | AD Broadcast &amp; I.T Solutions" />
+    <meta
+      name="twitter:description"
+      content="Explore broadcast, streaming, networking and IT equipment offered by AD Broadcast & I.T Solutions, ready to be integrated into complete solutions."
+    />
+    <meta
+      name="twitter:image"
+      content="https://ad-ug.com/assets/img/ui/hero-shop.jpg"
+    />
+
+    <link rel="stylesheet" href="../assets/css/main.css" />
+    <link rel="icon" href="../assets/img/favicon.ico" />
+
+    <!-- JSON-LD: WebPage referencing the main organization schema on the homepage -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "@id": "https://ad-ug.com/shop#webpage",
+        "url": "https://ad-ug.com/shop/",
+        "name": "Shop | AD Broadcast & I.T Solutions",
+        "description": "Shop for broadcast, streaming, networking and IT equipment supplied, integrated and supported by AD Broadcast & I.T Solutions across East Africa.",
+        "isPartOf": {
+          "@id": "https://ad-ug.com/#organization"
+        }
+      }
+    </script>
+  </head>
+  <body data-page="shop">
+    <div id="siteHeader"></div>
+
+    <main>
+      <!-- HERO -->
+      <section class="hero">
+        <div class="container hero__inner">
+          <div class="hero__meta">
+            <span class="chip">Shop</span>
+            <h1>Equipment we supply and configure.</h1>
+            <p class="lead">
+              Broadcast, networking and IT components sourced and integrated into
+              complete solutions. Some items have guide pricing; others are
+              fully custom and priced on request.
+            </p>
+            <div class="hero__ctas">
+              <button type="button" class="btn btn--ghost" id="openCartBtn">
+                View request list
+              </button>
+            </div>
+          </div>
+          
+                    <div class="hero__media">
+            <picture>
+              <source srcset="../assets/img/ui/hero-shop-tvu.webp" type="image/webp" />
+              <img
+                src="../assets/img/ui/hero-shop-tvu.jpg"
+                alt="Broadcast and IT operations"
+                loading="eager"
+              />
+            </picture>
+          </div>
+        </div>
+      </section>
+
+      <!-- TOOLBAR -->
+      <section class="section">
+        <div class="container">
+          <div class="section__header">
+            <h2 class="section__title">Browse products</h2>
+            <p class="section__subtitle">
+              Filter by category, brand or price type, or search by name, tags
+              or use-case.
+            </p>
+          </div>
+
+          <div class="shop-toolbar">
+            <div class="shop-toolbar__group">
+              <label class="field-label" for="shopSearchInput">Search</label>
+              <input
+                id="shopSearchInput"
+                class="field-input"
+                type="text"
+                placeholder="Search by name, SKU, tags."
+              />
+            </div>
+            <div class="shop-toolbar__group">
+              <label class="field-label" for="shopFilterCategory">Category</label>
+              <select id="shopFilterCategory" class="field-select">
+                <!-- options injected by shop.js -->
+              </select>
+            </div>
+            <div class="shop-toolbar__group">
+              <label class="field-label" for="shopFilterBrand">Brand</label>
+              <select id="shopFilterBrand" class="field-select">
+                <!-- options injected by shop.js -->
+              </select>
+            </div>
+            <div class="shop-toolbar__group">
+              <label class="field-label" for="shopFilterPriceType">Price type</label>
+              <select id="shopFilterPriceType" class="field-select">
+                <option value="">All</option>
+                <option value="priced">With price</option>
+                <option value="request">Price on request</option>
+              </select>
+            </div>
+          </div>
+
+          <div id="shopEmpty" class="shop-empty" style="display:none;">
+            No products match your filters yet. Try adjusting filters or search.
+          </div>
+
+          <div class="grid-3" id="shopGrid">
+            <!-- product cards injected by shop.js -->
+          </div>
+
+          <div id="shopPagination" class="shop-pagination">
+            <!-- pagination controls injected by shop.js -->
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <div id="siteFooter"></div>
+
+    <!-- PRODUCT MODAL -->
+    <div id="productModal" class="product-modal">
+      <div class="product-modal__backdrop" id="productModalBackdrop"></div>
+      <div class="product-modal__dialog">
+        <button
+          type="button"
+          class="product-modal__close"
+          id="productModalClose"
+          aria-label="Close product details"
+        >
+          ×
+        </button>
+
+        <div class="product-modal__content">
+          <div class="product-modal__media">
+            <div class="product-modal__image-main">
+              <img id="pmMainImage" src="" alt="" />
+            </div>
+            <div class="product-modal__thumbs" id="pmThumbs">
+              <!-- thumbnails injected -->
+            </div>
+          </div>
+
+          <div class="product-modal__body">
+            <span class="chip" id="pmCategory"></span>
+            <h2 id="pmTitle"></h2>
+            <p class="product-modal__sku" id="pmSku"></p>
+            <p class="product-modal__brand" id="pmBrand"></p>
+
+            <div class="product-modal__price" id="pmPrice"></div>
+
+            <p class="product-modal__desc" id="pmShortDesc"></p>
+            <p class="product-modal__details" id="pmDetails"></p>
+
+            <div class="product-modal__actions">
+              <button type="button" class="btn btn--primary" id="pmAddToRequestBtn">
+                Add to request list
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- CART / REQUEST DRAWER -->
+    <aside id="cartDrawer" class="cart-drawer">
+      <div class="cart-drawer__backdrop" id="cartDrawerBackdrop"></div>
+      <div class="cart-drawer__panel">
+        <div class="cart-drawer__header">
+          <h2>Your request list</h2>
+          <button
+            type="button"
+            class="cart-drawer__close"
+            id="cartDrawerClose"
+            aria-label="Close drawer"
+          >
+            ×
+          </button>
+        </div>
+
+        <div class="cart-drawer__content">
+          <div id="cartItemsContainer" class="cart-items">
+            <!-- items injected by shop.js -->
+          </div>
+
+          <div class="cart-summary" id="cartSummary">
+            <!-- summary text injected -->
+          </div>
+
+          <form id="checkoutForm" class="checkout-form" novalidate>
+            <h3>Request to purchase</h3>
+            <p class="checkout-form__hint">
+              We will email you banking details and follow up with a formal
+              quotation from our accounting system.
+            </p>
+
+            <div class="form-field">
+              <label for="chkName">Full name *</label>
+              <input type="text" id="chkName" name="name" required />
+            </div>
+
+            <div class="form-field">
+              <label for="chkEmail">Email *</label>
+              <input type="email" id="chkEmail" name="email" required />
+            </div>
+
+            <div class="form-field">
+              <label for="chkPhone">Phone *</label>
+              <input type="tel" id="chkPhone" name="phone" required />
+            </div>
+
+            <div class="form-field">
+              <label for="chkCompany">Organisation (optional)</label>
+              <input type="text" id="chkCompany" name="company" />
+            </div>
+			
+			<div class="form-field">
+			  <label for="chkCountry">Country</label>
+			  <input type="text" id="chkCountry" name="country" placeholder="e.g. Uganda" />
+			</div>
+
+			<div class="form-field">
+			  <label for="chkContactMethod">Preferred contact method</label>
+			  <select id="chkContactMethod" name="contact_method">
+				<option value="">No preference</option>
+				<option value="email">Email</option>
+				<option value="phone">Phone call</option>
+				<option value="whatsapp">WhatsApp</option>
+			  </select>
+			</div>
+
+			<div class="form-field">
+			  <label for="chkDelivery">Delivery advice (optional)</label>
+			  <textarea id="chkDelivery" name="delivery_location" rows="2"
+				placeholder="City, district and delivery notes"></textarea>
+			</div>
+
+            <div class="form-field">
+              <label for="chkNotes">Notes (optional)</label>
+              <textarea id="chkNotes" name="notes" rows="3"></textarea>
+            </div>
+
+            <div class="checkout-form__actions">
+              <button type="submit" class="btn btn--primary">
+                Send request
+              </button>
+              <p id="checkoutStatus" class="checkout-status"></p>
+            </div>
+          </form>
+        </div>
+      </div>
+    </aside>
+
+    <script src="../assets/js/app.js"></script>
+    <script src="../assets/js/shop.js"></script>
+  </body>
+</html>
